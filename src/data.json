@@ -1,0 +1,100 @@
+{
+    "products":[ 
+        {
+        "_id":"saree1",
+        "image":"./images/saree001.jpg",
+        "title":"Red Silky Saree",
+        "description":"This is for all the latest trends...!",
+        "availableSizes":["X","L","XL","XXL","ALL"],
+        "price":"2999"
+    },
+    {
+        "_id":"saree2",
+        "image":"./images/saree002.jpg",
+        "title":"Green Pattu Saree",
+        "description":"This is for all the latest trends...!",
+        "availableSizes":["M","X","L","XL","XXL","ALL"],
+        "price":"1329"
+    },
+    {
+        "_id":"saree3",
+        "image":"./images/saree003.jpg",
+        "title":"Blue Banaras Saree",
+        "description":"This is for all the latest trends...!",
+        "availableSizes":["S","XS","X","L","XL","XXL","ALL"],
+        "price":"1799"
+    },
+    {
+        "_id":"saree4",
+        "image":"./images/saree004.jpg",
+        "title":"Red transparent Saree",
+        "description":"This is for all the latest trends...!",
+        "availableSizes":["M","X","L","XL","XXL","ALL"],
+        "price":"1099"
+    },
+    {
+        "_id":"saree5",
+        "image":"./images/saree005.jpg",
+        "title":"Orange Pattu Saree",
+        "description":"This is for all the latest trends...!",
+        "availableSizes":["XS","X","L","XL","XXL","ALL"],
+        "price":"2099"
+    },
+    {
+        "_id":"saree6",
+        "image":"./images/saree006.jpg",
+        "title":"Black Cotton Saree",
+        "description":"This is for all the latest trends...!",
+        "availableSizes":["M","X","L","XL","XXL","ALL"],
+        "price":"4299"
+    },
+    {
+        "_id":"saree7",
+        "image":"./images/saree007.jpg",
+        "title":"White Silky Saree",
+        "description":"This is for all the latest trends...!",
+        "availableSizes":["S","X","L","XL","XXL","ALL"],
+        "price":"3099"
+    },
+    {
+        "_id":"saree8",
+        "image":"./images/saree008.jpg",
+        "title":"Kerala Kutti Saree",
+        "description":"This is for all the latest trends...!",
+        "availableSizes":["XS","X","L","XL","XXL","ALL"],
+        "price":"1699"
+    },
+    {
+        "_id":"saree9",
+        "image":"./images/saree009.jpg",
+        "title":"Kerala Kutti Saree",
+        "description":"This is for all the latest trends...!",
+        "availableSizes":["XS","X","L","XL","XXL","ALL"],
+        "price":"1699"
+    },
+    {
+        "_id":"saree10",
+        "image":"./images/saree010.jpg",
+        "title":"Kerala Kutti Saree",
+        "description":"This is for all the latest trends...!",
+        "availableSizes":["XS","X","L","XL","XXL","ALL"],
+        "price":"1699"
+    },
+    {
+        "_id":"saree11",
+        "image":"./images/saree011.jpg",
+        "title":"Kerala Kutti Saree",
+        "description":"This is for all the latest trends...!",
+        "availableSizes":["XS","X","L","XL","XXL","ALL"],
+        "price":"1699"
+    },
+    {
+        "_id":"saree12",
+        "image":"./images/saree012.jpg",
+        "title":"Kerala Kutti Saree",
+        "description":"This is for all the latest trends...!",
+        "availableSizes":["XS","X","L","XL","XXL","ALL"],
+        "price":"1699"
+    }
+]
+}

@@ -3,15 +3,21 @@ html {
   box-sizing: border-box;
 }
 
+.iconStyle1 {
+  color: rgb(223, 226, 45);
+  padding: 10px;
+}
+
 body,
 #root {
-  background-color: #86afce;
+  background-color: #dfe6eb;
   height: 100vh;
   margin: 0;
 }
 
 body,
 input,
+button,
 select,
 textarea {
   font-size: 2rem;
@@ -27,6 +33,7 @@ textarea {
     "footer";
   grid-template-rows: 5rem 1fr 5rem;
   grid-template-columns: 1fr;
+
   height: 100%;
 }
 
@@ -40,9 +47,41 @@ header {
   display: flex;
   align-items: center;
   padding: 1.5rem;
+  height: 30px;
+}
+
+.ff {
+  font-family: Arial, Helvetica, sans-serif;
+  border: #a5a7aa solid;
+  border-radius: 1rem;
+}
+
+.ff:hover {
+  box-shadow: 0 0 10px rgb(139, 133, 133);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  flex: 3 60rem;
+}
+
+.sidebar {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  flex: 1 20rem;
 }
 
 header a {
+  font-size: 22px;
   color: #ff8000;
   text-decoration: none;
   box-sizing: 200px;
@@ -59,4 +98,222 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.products {
+  font-family: "Playfair Display", serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.products li {
+  flex: 0 1 29rem;
+  height: 47rem;
+  padding: 1rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+}
+
+.product img {
+  border: solid rgb(92, 141, 163);
+  border-radius: 1rem;
+  max-width: 20rem;
+  max-height: 37rem;
+}
+
+.product-price {
+  font-family: "Playfair Display", serif;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-price div,
+.product-price button {
+  text-align: center;
+  flex: 1;
+}
+
+.product-price div {
+  font-size: 2rem;
+}
+
+.button {
+  padding: 15px 10px;
+  border: 0.15rem #292424 solid;
+  background-color: #f0c040;
+  cursor: pointer;
+  font-size: 1.5rem;
+  width: 50%;
+}
+
+.button:hover {
+  border: 0.1rem #808080 solid;
+  box-shadow: 0 0 10px black;
+}
+
+.product img:hover {
+  transform: scale(1.1);
+  border: 0.1rem #5bcce0 solid;
+  box-shadow: 0 0 10px rgb(116, 183, 228);
+}
+
+.mb {
+  margin-bottom: 30px;
+}
+
+/* Filter */
+
+.filter {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3rem;
+  margin: 1rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+
+.filter div {
+  flex: 1;
+}
+
+/* add to cart */
+
+.cart {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.8rem;
+  margin: 0.5rem;
+  /* display: flex; */
+}
+
+.cart-header {
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+
+.cart-items {
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.cart-items img {
+  width: 5rem;
+}
+.cart-items li {
+  display: flex;
+}
+.cart-items li div {
+  padding: 0.5rem;
+}
+.cart-items li div:last-child {
+  flex: 1;
+}
+.right {
+  text-align: right;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.total > div {
+  font-size: 2rem;
+}
+.total > div,
+.total > button {
+  flex: 1;
+}
+
+/* Checkout form */
+
+form {
+  width: 100%;
+}
+
+.form-container {
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+.form-container li {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+input {
+  padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+}
+.ff1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Product Details */
+.product-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 96vh;
+}
+
+.product-details img {
+  max-height: 100vh;
+  max-width: 46rem;
+  margin: 0 auto;
+}
+.product-details-description {
+  flex: 1 1;
+  margin: 1rem;
+}
+.close-modal {
+  position: absolute;
+  right: 1rem;
+  top: 2.5rem;
+  z-index: 1000;
+}
+
+.buttonSize {
+  width: 5%;
+}
+
+/* Order details */
+
+.order-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.order-details li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-details li div {
+  padding: 10px;
+}
+.order-details .items {
+  text-align: right;
+  padding: 0;
+}
+
+.success-message {
+  color: green;
 }
